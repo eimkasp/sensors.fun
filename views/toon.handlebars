@@ -1,0 +1,41 @@
+<div class="col-md-9">
+  <h3>Add new The TOON
+  </h3>
+
+  <form method="POST" action="https://datashare.eu-gb.mybluemix.net/addtoon">
+    <div class="form-group">
+      <label for="username">User name</label>
+      <input type="text" class="form-control" name="username" id="username"/>
+    </div>
+
+    <div class="form-group">
+
+      <label for="password">Password</label>
+      <input type="text" class="form-control" name="password" id="password"/>
+    </div>
+
+    <div class="form-group">
+      <label for="client_id">API key</label>
+      <input type="text" class="form-control" name="client_id" id="client_id"/>
+    </div>
+
+    <div class="form-group">
+      <label for="client_secret">API secret</label>
+      <input type="text" class="form-control" name="client_secret" id="client_secret"/>
+    </div>
+
+    <div class="form-group">
+      <input type="submit" value="Share!" class="btn btn-default"/>
+    </div>
+  </form>
+
+  <script>
+    function fillData() {
+      document.getElementById("username").value = 'Toon32@quby';
+      document.getElementById("password").value = 'ok';
+      document.getElementById("client_id").value = 'WZsrpE77TLYlHef9Z9447Pmbl10a';
+      document.getElementById("client_secret").value = 'sUhZbBsP6iLkagUMuKEsK4FbK5ka';
+    }
+  </script>
+
+</div>
